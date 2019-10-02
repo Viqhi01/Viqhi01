@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+  <title>Tugas Web Programming</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="new2.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profil</a></li>
+    <li role="presentation"><a href="#Education" aria-controls="Education" role="tab" data-toggle="tab">Education</a></li>
+	<li role="presentation"><a href="#Gallery" aria-controls="Gallery" role="tab" data-toggle="tab">Gallery</a></li>
+	<li role="presentation"><a href="#Kalkulator" aria-controls="Kalkulator" role="tab" data-toggle="tab">Kalkulator</a></li>
+    <li role="presentation"><a href="#AboutWeb" aria-controls="AboutWeb" role="tab" data-toggle="tab">About Web</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    	<h1>Welcome</h1>
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="profile">
+		<body>
+		<center>
+		<font size="25px">
+		BIODATA
+		</font>
+		</center>
+		<table width="100%" border="1" cellspacing="0" cellpadding="5" align="center">
+		<tr align="center" bgcolor="#66CC33">
+		</tr>
+		<tr>
+		<td><center>Nama</td>
+		<td><center>Viqhi Muladi</td>
+		<td rowspan="10" align="center"><img src="Picture 006 copy.jpg" width="210" height="313"></td>
+		</tr>
+		<tr>
+		<td><center>Alamat</td>
+		<td><center>Jl. Kapoposang No.18</td>
+		</tr>
+		<tr>
+		<td><center>Email</td>
+		<td><center>viqhimuladi1@gmail.com</td>
+		</tr>
+		<tr>
+		<td><center>Telepon</td>
+		<td><center>082291688241</td>
+		</tr>
+		</table>
+	</div>
+    <div role="tabpanel" class="tab-pane" id="Education">
+		<body>
+		<center>
+		<font size="25px">
+		Riwayat Pendidikan
+		</font>
+		</center>
+   	<table width="50%" border="1" cellspacing="0" cellpadding="5" align="center">
+		<tr align="center" bgcolor="#66CC33">
+		</tr>
+		<tr>
+		<td><center>SD</td>
+		<td><center><a href="http://sekolah.data.kemdikbud.go.id/index.php/chome/profil/A0F820C5-0D26-E111-BBD9-3F119D7D7957">SD Nusantara</a></td>
+		<tr>
+		<td><center>SMP</td>
+		<td><center><a href="https://www.sekolahathirah.sch.id/kajaolalido-smp-sekolah_menengah_pertama.html">SMP ISlam Athirah</a></td>
+		</tr>
+		<tr>
+		<td><center>SMA</td>
+		<td><center><a href="https://www.sekolahathirah.sch.id/kajaolalido-smp-sekolah_menengah_pertama.html">SMA Negeri 1 Makassar</a></td>
+		</tr>
+		<td><center>Perguruan Tinggi</td>
+		<td><center><a href="https://unhas.ac.id/">Universitas Hasanuddin</a></td>
+		</tr>
+		</table>
+	</div>
+	 <div role="tabpanel" class="tab-pane" id="Gallery">
+    	<center>
+		<font size="25px">
+		Gallery
+		</font>
+		</center>
+		<table width="75%" border="0" cellspacing="2" cellpadding="10" align="center">
+		<tr align="center" bgcolor="#66CC33">
+		</tr>
+		<tr>
+		<td><center><img height="200" src="1.jpg"></td>
+		<td><center><img height="200" src="2.jpg"></td>
+		<tr>
+		<td><center><img height="200" src="4.jpg"></td>
+		<td><center><img height="200" src="3.jpg"></td>
+		</tr>
+		<tr>
+		<td><center><img height="200" src="5.jpg"></td>
+		<td><center><img height="200" src="6.jpg"></td>
+		</tr>
+		</table>
+
+    </div>
+	<div role="tabpanel" class="tab-pane" id="Kalkulator">
+	<h1><center> Menghitung Statistika </Center></h1>
+		<center>
+		<FORM NAME ='formnya'>
+		<div class = "calcu">			
+		<table border="0">
+		<tr>
+		<th>Nilai 1 </th>
+		<td>:</td>
+		<td><input type ='text' name="nilai1" id=nilai1></td>
+		</tr>
+		<tr>
+		<th>Nilai 2  </th>
+		<td>:</td>
+		<td><input type ='text' name="nilai2" id=nilai2></td>
+		</tr>
+		<tr>
+		<th>Nilai 3  </th>
+		<td>:</td>
+		<td><input type ='text' name="nilai3" id=nilai3></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>
+			<button type="button" id ="hitung" onclick="hasil()">Hitung</button>
+			<button type="button" id="hitung" onclick="bersihkan()">Hapus</button>
+			</FORM>
+		</td>
+		</tr>
+		</table>
+		<div id="hasilHitung"></div>
+		</div>
+		</div>
+		</center>
+    <div role="tabpanel" class="tab-pane" id="AboutWeb">
+    <p> Website adalah sebuah kumpulan halaman pada suatu domain di internet  yang dibuat dengan tujuan tertentu dan saling berhubungan serta dapat diakses secara luas melalui halaman depan (home page) menggunakan sebuah browser menggunakan URL website. Umumnya sebuah website berisikan informasi yang disediakan secara perorangan, kelompok, atau organisasi. 
+	</p>
+	<p> Website pertama kali dibuat oleh Tim Berners-Lee pada akhir 1980an dan baru resmi online pada tahun 1991. Tujuan awal Tim Berners-Lee membuat sebuah website adalah supaya lebih memudahkan para peneliti di tempatnya bekerja ketika akan bertukar atau melakukan perubahan informasi. Jika Anda ingin mengetahui seperti apa tampilannya, silakan akses tautan berikut http://info.cern.ch/. Pada saat itu, website mulai dapat digunakan secara gratis oleh publik baru diumumkan oleh CERN tepatnya tanggal 30 April 1993. Website dapat dimiliki oleh individu, organisasi, atau perusahaan. Pada umumnya sebuah website akan menampilkan informasi atau satu topik tertentu, meskipun saat ini banyak website yang menampilkan berbagai informasi dengan topik yang berbeda.
+	</p>
+	<p> Website memiliki banyak manfaat di kehidupan kita. Anda bisa mengakses media sosial menggunakan website. Belanja online juga terjadi di website. Ketika Anda membutuhkan informasi penting, Anda juga bisa mengaksesnya melalui website. Manfaat website tidak hanya itu, masih banyak manfaat yang bisa Anda dapatkan dari website. 
+	</p>
+	</div>
+  </div>
+
+</div>
+</div>
+
+</body>
+</html>
